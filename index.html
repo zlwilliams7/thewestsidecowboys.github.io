@@ -42,22 +42,33 @@
       color: #f5deb3;
       font-size: 1.1rem;
     }
-    a.mail {
+    a.mail, a.instagram {
       display: inline-block;
       margin-top: 1rem;
       padding: 0.6rem 1.2rem;
       border-radius: 8px;
       text-decoration: none;
-      color: #3e2f23;
-      background: #ffd27f;
       font-weight: bold;
       font-size: 1rem;
       border: 2px solid #c19a6b;
       box-shadow: 2px 2px #5a3e2b;
       transition: all 0.2s ease;
     }
+    a.mail {
+      color: #3e2f23;
+      background: #ffd27f;
+    }
     a.mail:hover {
       background: #ffcf66;
+      transform: translateY(-2px);
+    }
+    a.instagram {
+      color: #fdf5e6;
+      background: #833ab4; /* Instagram purple */
+      margin-top: 0.5rem;
+    }
+    a.instagram:hover {
+      background: #5851db; /* Instagram gradient color */
       transform: translateY(-2px);
     }
     footer {
@@ -84,11 +95,8 @@
       <p>If you’d like to reach us, email:</p>
       <a class="mail" href="mailto:thewestsidecowboys@gmail.com">thewestsidecowboys@gmail.com</a>
       
-      <div class="video">
-        <!-- Replace VIDEO_ID with your actual YouTube video ID -->
-        <iframe src="https://www.youtube.com/embed/vj2kntsbOKM" allowfullscreen></iframe>
-      </div>
-
+      <a class="instagram" href="https://instagram.com/thewestsidecowboys" target="_blank" rel="noopener noreferrer">Instagram</a>
+      
       <footer>Thanks for stopping by — see you soon.</footer>
     </div>
   </div>

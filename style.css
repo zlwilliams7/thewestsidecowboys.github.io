@@ -66,6 +66,10 @@ footer {
   color: #d2b48c;
 }
 .logo {
-    width: 200px; /* adjust size */
-    margin-bottom: 20px;
+    max-width: 200px; /* Keeps it from getting huge */
+    width: 100%;      /* Makes it responsive */
+    height: auto;     /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto 20px auto; /* Centers it */
 }
+

@@ -213,6 +213,26 @@ table.table {
 pre, code {
   font-family: var(--type-mono); }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin-top: 1.5rem;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px; /* optional */
+}
+
+
 .highlight {
   padding: 0 1em;
   border-radius: 0.25em;

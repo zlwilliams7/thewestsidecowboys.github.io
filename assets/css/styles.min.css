@@ -213,7 +213,7 @@ table.table {
 pre, code {
   font-family: var(--type-mono); }
 
-.video {
+video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
@@ -222,7 +222,7 @@ pre, code {
   margin-top: 1.5rem;
 }
 
-.video iframe {
+video iframe {
   position: absolute;
   top: 0;
   left: 0;

@@ -213,7 +213,25 @@ table.table {
 pre, code {
   font-family: var(--type-mono); }
 
-video {
+.calendar-container {
+  position: relative;
+  padding-bottom: 75%; /* maintains aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.calendar-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #777; /* keeps your border */
+}
+
+.video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
@@ -222,7 +240,7 @@ video {
   margin-top: 1.5rem;
 }
 
-video iframe {
+.video iframe {
   position: absolute;
   top: 0;
   left: 0;
